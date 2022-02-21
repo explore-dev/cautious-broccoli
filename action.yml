@@ -1,0 +1,6 @@
+# action.yml
+name: 'Cautious Broccoli'
+description: 'Cautious Broccoli says hi'
+runs:
+  using: 'docker'
+  image: 'exploredev/bug-free-tribble:latest'

@@ -1,6 +1,11 @@
 # action.yml
 name: 'Cautious Broccoli'
 description: 'Cautious Broccoli says hi'
+inputs:
+  repository:  # id of input
+    description: 'Repository name with owner.'
+    default: ${{ github.repository }}
+    required: false
 runs:
   using: 'docker'
   image: 'docker://exploredev/bug-free-tribble:latest'

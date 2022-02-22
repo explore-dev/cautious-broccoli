@@ -1,6 +1,9 @@
 # action.yml
 name: 'Cautious Broccoli'
 description: 'Cautious Broccoli says hi'
+branding:
+  icon: 'send'
+  color: 'blue'
 inputs:
   repository:  # id of input
     description: 'Repository name with owner.'

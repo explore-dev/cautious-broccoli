@@ -6,6 +6,10 @@ inputs:
     description: 'Repository name with owner.'
     default: ${{ github.repository }}
     required: false
+  prnumber:
+    description: 'Pull request number.'
+    default: ${{ github.pull_request.number }}
+    required: false
   token:
     description: >
       Personal access token (PAT) used to fetch the repository. The PAT is configured

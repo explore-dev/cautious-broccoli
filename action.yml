@@ -8,7 +8,7 @@ inputs:
     required: false
   prnumber:
     description: 'Pull request number.'
-    default: ${{ github.pull_request.number }}
+    default: ${{ github.event.pull_request.number }}
     required: false
   token:
     description: >

@@ -1,6 +1,6 @@
 # cautious-broccoli docker action
 
-This action prints "Hello World".
+This action will run bug-free-tribble 
 
 ## Inputs
 

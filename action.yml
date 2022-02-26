@@ -1,6 +1,6 @@
 # action.yml
 name: 'Cautious Broccoli'
-description: 'Cautious Broccoli says hi'
+description: 'Cautious Broccoli runs bug-free-tribble'
 branding:
   icon: 'send'
   color: 'blue'

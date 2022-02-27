@@ -5,7 +5,7 @@ branding:
   icon: 'send'
   color: 'blue'
 inputs:
-  repository:  # id of input
+  repository:
     description: 'Repository name with owner.'
     default: ${{ github.repository }}
     required: false
@@ -15,9 +15,9 @@ inputs:
     required: false
   token:
     description: >
-      Personal access token (PAT) used to fetch the repository. The PAT is configured
-      with the local git config, which enables your scripts to run authenticated git
-      commands. The post-job step removes the PAT.
+      Personal access token (PAT) used to fetch information from the repository. 
+      The PAT is configured with the local git config, which enables your scripts 
+      to run authenticated git commands. The post-job step removes the PAT.
       We recommend using a service account with the least permissions necessary.
       Also when generating a new PAT, select the least scopes necessary.
       [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)

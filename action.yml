@@ -25,4 +25,4 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'docker://exploredev/bug-free-tribble:latest'
+  image: 'docker://exploredev/bug-free-tribble:v0.1'

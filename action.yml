@@ -23,6 +23,10 @@ inputs:
       [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
     default: ${{ github.token }}
     required: false
+  dockerimage:
+    description: 'Docker image'
+    default: 'docker://exploredev/bug-free-tribble:v0.4'
+    required: false
 runs:
   using: 'docker'
-  image: 'docker://exploredev/bug-free-tribble:v0.4'
+  image: ${{ inputs.dockerimage }}
